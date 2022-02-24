@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="Symfony start">
-      <change afterPath="$PROJECT_DIR$/src/Controller/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
+    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="Added Register/login controllers/entities&#10;And twig templates for login/register">
+      <change afterPath="$PROJECT_DIR$/src/Controller/LogoutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/logout/logout.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +167,12 @@
       <workItem from="1644654353385" duration="3995000" />
       <workItem from="1644666347412" duration="5656000" />
       <workItem from="1644740080667" duration="1365000" />
-      <workItem from="1644862693369" duration="2282000" />
+      <workItem from="1644862693369" duration="3225000" />
+      <workItem from="1645032213463" duration="1645000" />
+      <workItem from="1645285559555" duration="1738000" />
+      <workItem from="1645345648065" duration="4201000" />
+      <workItem from="1645553857736" duration="1521000" />
+      <workItem from="1645724461986" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="SKELETON">
       <created>1644431243260</created>
@@ -189,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644654914873</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Register/login controllers/entities&#10;And twig templates for login/register">
+      <created>1644868013450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644868013450</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +223,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SKELETON" />
     <MESSAGE value="Symfony start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symfony start" />
+    <MESSAGE value="Added Register/login controllers/entities&#10;And twig templates for login/register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Register/login controllers/entities&#10;And twig templates for login/register" />
   </component>
 </project>
