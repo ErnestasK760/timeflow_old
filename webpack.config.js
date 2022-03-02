@@ -13,7 +13,6 @@ Encore
     .setPublicPath('/build')
     // only needed for CDN's or sub-directory deploy
     //.setManifestKeyPrefix('build/')
-
     /*
      * ENTRY CONFIG
      *
@@ -49,6 +48,8 @@ Encore
         config.plugins.push('@babel/plugin-proposal-class-properties');
     })
 
+    .enableVueLoader()
+
     // enables @babel/preset-env polyfills
     .configureBabelPresetEnv((config) => {
         config.useBuiltIns = 'usage';
@@ -69,7 +70,7 @@ Encore
     //.enableIntegrityHashes(Encore.isProduction())
 
     // uncomment if you're having problems with a jQuery plugin
-    //.autoProvidejQuery()
+    .autoProvidejQuery()
 ;
 
 module.exports = Encore.getWebpackConfig();
