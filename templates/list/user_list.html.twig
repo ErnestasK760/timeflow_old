@@ -1,4 +1,8 @@
-<h1>This gonna be a user list</h1>
+{% extends 'layout.html.twig' %}
+
+{% block content %}
 {% for user in users %}
 <h2>{{ user }}</h2>
 {% endfor %}
+
+{% endblock %}

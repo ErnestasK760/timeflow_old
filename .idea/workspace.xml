@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="Symfony start" />
+    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="Nav bar login register change">
+      <change afterPath="$PROJECT_DIR$/assets/js/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vue/app.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +25,20 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="Symfony_start" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Symfony_start" />
+        <entry key="$PROJECT_DIR$" value="Added_login_register" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,6 +159,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -147,6 +172,25 @@
       <updated>1644430436522</updated>
       <workItem from="1644430437808" duration="2516000" />
       <workItem from="1644653241191" duration="685000" />
+      <workItem from="1644653937952" duration="332000" />
+      <workItem from="1644654287466" duration="63000" />
+      <workItem from="1644654353385" duration="3995000" />
+      <workItem from="1644666347412" duration="5656000" />
+      <workItem from="1644740080667" duration="1365000" />
+      <workItem from="1644862693369" duration="3225000" />
+      <workItem from="1645032213463" duration="1645000" />
+      <workItem from="1645285559555" duration="1738000" />
+      <workItem from="1645345648065" duration="4201000" />
+      <workItem from="1645553857736" duration="1521000" />
+      <workItem from="1645724461986" duration="3477000" />
+      <workItem from="1645881427803" duration="2747000" />
+      <workItem from="1645970071914" duration="597000" />
+      <workItem from="1646067546933" duration="332000" />
+      <workItem from="1646079141596" duration="1126000" />
+      <workItem from="1646156461188" duration="1593000" />
+      <workItem from="1646159556765" duration="100000" />
+      <workItem from="1646159671332" duration="203000" />
+      <workItem from="1646159890842" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="SKELETON">
       <created>1644431243260</created>
@@ -162,7 +206,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644653857878</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Symfony start">
+      <created>1644654914873</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644654914873</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Register/login controllers/entities&#10;And twig templates for login/register">
+      <created>1644868013450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644868013450</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed login authorization and added authorization">
+      <created>1645726352728</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645726352728</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SKELETON" />
     <MESSAGE value="Symfony start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symfony start" />
+    <MESSAGE value="Added Register/login controllers/entities&#10;And twig templates for login/register" />
+    <MESSAGE value="Fixed login authorization and added authorization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed login authorization and added authorization" />
   </component>
 </project>
