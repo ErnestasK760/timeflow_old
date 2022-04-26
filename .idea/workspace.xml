@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="Masterstvo">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/timeflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/timeflow.iml" afterDir="false" />
+    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/components/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/components/navbar/MenuItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/components/navbar/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/components/navbar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vue/app.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/user_list.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/logout/logout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/Button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Added_login_register" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -160,6 +177,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="true" />
+        <entry key="com.haulmont.rcb.reactInspector" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\timeflow\assets\components" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -196,6 +226,8 @@
       <workItem from="1650554769704" duration="600000" />
       <workItem from="1650902934313" duration="66000" />
       <workItem from="1650903014820" duration="2576000" />
+      <workItem from="1650913170736" duration="2978000" />
+      <workItem from="1650991744956" duration="7493000" />
     </task>
     <task id="LOCAL-00001" summary="SKELETON">
       <created>1644431243260</created>
@@ -255,6 +287,7 @@
     <MESSAGE value="Added Register/login controllers/entities&#10;And twig templates for login/register" />
     <MESSAGE value="Fixed login authorization and added authorization" />
     <MESSAGE value="Masterstvo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Masterstvo" />
+    <MESSAGE value="Masterstvoasa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Masterstvoasa" />
   </component>
 </project>

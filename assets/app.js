@@ -6,17 +6,20 @@
  */
 
 // any CSS you import will output into a single css file (app.css in this case)
-import './styles/app.css';
 
-import './js/navbar.js';
+import React from "react";
+import ReactDOM from 'react-dom/client';
+import Navbar from "./components/navbar/Navbar";
 
+require('@fortawesome/fontawesome-free/css/all.min.css');
+require('@fortawesome/fontawesome-free/js/all.js');
 
-// start the Stimulus application
-import './bootstrap';
-import * as Vue from 'vue'
-import App from './vue/app.vue'
+class App extends React.Component {
+    render() {
+        return (
+           <Navbar />
+        );
+    }
+}
 
-new Vue({
-    el: "#app",
-    components: {App}
-})
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
