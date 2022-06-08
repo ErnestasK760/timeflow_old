@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="Masterstvo">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/timeflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/timeflow.iml" afterDir="false" />
+    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Try.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/about/About.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/about/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/content/Content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/content/Content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/Button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/navbar/MenuItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/navbar/MenuItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/navbar/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +50,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Added_login_register" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -154,11 +179,30 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\xampp\htdocs\timeflow\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="true" />
+        <entry key="com.haulmont.rcb.reactInspector" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\timeflow\assets\js\components" />
+      <recent name="C:\xampp\htdocs\timeflow\assets\js" />
+      <recent name="C:\xampp\htdocs\timeflow\assets\components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -196,6 +240,26 @@
       <workItem from="1650554769704" duration="600000" />
       <workItem from="1650902934313" duration="66000" />
       <workItem from="1650903014820" duration="2576000" />
+      <workItem from="1650913170736" duration="2978000" />
+      <workItem from="1650991744956" duration="8199000" />
+      <workItem from="1651074940340" duration="4307000" />
+      <workItem from="1651160581510" duration="4928000" />
+      <workItem from="1651329534452" duration="2506000" />
+      <workItem from="1651417392434" duration="2592000" />
+      <workItem from="1652113531247" duration="1138000" />
+      <workItem from="1652284144730" duration="7046000" />
+      <workItem from="1652377704322" duration="4474000" />
+      <workItem from="1652805650152" duration="854000" />
+      <workItem from="1653329036272" duration="3325000" />
+      <workItem from="1654016964539" duration="1098000" />
+      <workItem from="1654100807548" duration="595000" />
+      <workItem from="1654184289352" duration="4672000" />
+      <workItem from="1654354512006" duration="3508000" />
+      <workItem from="1654417774863" duration="13043000" />
+      <workItem from="1654490863034" duration="48000" />
+      <workItem from="1654537769684" duration="595000" />
+      <workItem from="1654623129762" duration="2354000" />
+      <workItem from="1654707279426" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="SKELETON">
       <created>1644431243260</created>
@@ -232,11 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1645726352728</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Made react navbar.">
+      <created>1651003012312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651003012312</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/assets/js/components/navbar/Navbar.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -255,6 +331,12 @@
     <MESSAGE value="Added Register/login controllers/entities&#10;And twig templates for login/register" />
     <MESSAGE value="Fixed login authorization and added authorization" />
     <MESSAGE value="Masterstvo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Masterstvo" />
+    <MESSAGE value="Masterstvoasa" />
+    <MESSAGE value="Made react navbar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made react navbar." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
