@@ -1,0 +1,13 @@
+.inner-body {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    background-color: white;
+    height: 100vh;
+}
+.body {
+    min-height: 100vh;
+    background-color: rgba(220, 224, 224, 0.3);
+}

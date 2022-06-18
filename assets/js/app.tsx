@@ -1,15 +1,21 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
-import { Try } from './components/Try';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import App from './components/App';
+import Home from './components/pages/home/Home';
+import Content from './components/pages/content/Content';
+import About from './components/pages/about/About';
 
-class App extends React.Component {
-    render() {
-        return (
-            <div>
-            <Try />
-            </div>
-        );
-    }
-}
+const root = ReactDOM.createRoot(document.getElementById('root')
+);
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+root.render(
+    <BrowserRouter>
+        <App />
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="content" element={<Content />} />
+            <Route path="about" element={<About />} />
+        </Routes>
+    </BrowserRouter>
+);
