@@ -2,31 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Try.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/about/About.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/about/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/content/Content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/content/Content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/about/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/content/Content.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/components/Button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/components/navbar/MenuItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/navbar/MenuItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/components/navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/components/navbar/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Try.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/navbar/MenuItems.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/pages/about/About.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/pages/content/Content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -192,7 +191,7 @@
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.rcb.reactComponents" value="true" />
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
         <entry key="com.haulmont.rcb.reactInspector" value="true" />
       </map>
     </option>
@@ -259,7 +258,19 @@
       <workItem from="1654490863034" duration="48000" />
       <workItem from="1654537769684" duration="595000" />
       <workItem from="1654623129762" duration="2354000" />
-      <workItem from="1654707279426" duration="1725000" />
+      <workItem from="1654707279426" duration="4319000" />
+      <workItem from="1654801741778" duration="2811000" />
+      <workItem from="1654875775819" duration="806000" />
+      <workItem from="1654937449603" duration="25559000" />
+      <workItem from="1655021435140" duration="11260000" />
+      <workItem from="1655136938497" duration="1193000" />
+      <workItem from="1655222732056" duration="2363000" />
+      <workItem from="1655310155839" duration="1868000" />
+      <workItem from="1655394521996" duration="1897000" />
+      <workItem from="1655399593524" duration="4356000" />
+      <workItem from="1655405223135" duration="2068000" />
+      <workItem from="1655484378281" duration="1861000" />
+      <workItem from="1655549096728" duration="4735000" />
     </task>
     <task id="LOCAL-00001" summary="SKELETON">
       <created>1644431243260</created>
@@ -303,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651003012312</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="React + Typescript set up">
+      <created>1654709091952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654709091952</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +351,8 @@
     <MESSAGE value="Masterstvo" />
     <MESSAGE value="Masterstvoasa" />
     <MESSAGE value="Made react navbar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made react navbar." />
+    <MESSAGE value="React + Typescript set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="React + Typescript set up" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
