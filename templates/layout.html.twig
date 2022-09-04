@@ -7,7 +7,7 @@
 
     {% block stylesheets %}
         <link rel="stylesheet" href="https://bootswatch.com/5/sandstone/bootstrap.min.css">
-        {{ encore_entry_link_tags('app') }}
+        {{ encore_entry_link_tags('style') }}
     {% endblock %}
 
     {% block javascripts %}
@@ -16,10 +16,6 @@
     {% endblock %}
 </head>
     <body>
-    {% include 'nav/nav_bar.html.twig' %}
-
-{% block content %}
-{% endblock %}
-
+    <div id="root"></div>
     </body>
 </html>

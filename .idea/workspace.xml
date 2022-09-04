@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="Masterstvo">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/timeflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/timeflow.iml" afterDir="false" />
+    <list default="true" id="285100da-79e1-474a-ba65-bdbf77dc4903" name="Changes" comment="Navbar, login, register forms">
+      <change afterPath="$PROJECT_DIR$/assets/js/components/items/Progressbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/todolist/Signup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/pages/todolist/pictures/facebook_logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about/about.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/content/todolist.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navbar/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/pages/about/About.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/pages/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/pages/about/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/pages/content/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/items/Todolistcard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/pages/content/Content.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/pages/home/Home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/pages/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/pages/home/Login.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20220214191900.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nav/nav_bar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserListController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +68,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Added_login_register" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -143,6 +186,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="24ss4OWdma68v2b1BnbER5PzjW4" />
@@ -151,14 +195,39 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JavaScript&#10;TypeScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\xampp\htdocs\timeflow\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\timeflow\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\timeflow\assets\js\components\navbar\pictures" />
+      <recent name="C:\xampp\htdocs\timeflow\assets\js\components\pages\todolist\pictures" />
+      <recent name="C:\xampp\htdocs\timeflow\assets\js\components" />
+      <recent name="C:\xampp\htdocs\timeflow\assets\js" />
+      <recent name="C:\xampp\htdocs\timeflow\assets\components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -196,6 +265,83 @@
       <workItem from="1650554769704" duration="600000" />
       <workItem from="1650902934313" duration="66000" />
       <workItem from="1650903014820" duration="2576000" />
+      <workItem from="1650913170736" duration="2978000" />
+      <workItem from="1650991744956" duration="8199000" />
+      <workItem from="1651074940340" duration="4307000" />
+      <workItem from="1651160581510" duration="4928000" />
+      <workItem from="1651329534452" duration="2506000" />
+      <workItem from="1651417392434" duration="2592000" />
+      <workItem from="1652113531247" duration="1138000" />
+      <workItem from="1652284144730" duration="7046000" />
+      <workItem from="1652377704322" duration="4474000" />
+      <workItem from="1652805650152" duration="854000" />
+      <workItem from="1653329036272" duration="3325000" />
+      <workItem from="1654016964539" duration="1098000" />
+      <workItem from="1654100807548" duration="595000" />
+      <workItem from="1654184289352" duration="4672000" />
+      <workItem from="1654354512006" duration="3508000" />
+      <workItem from="1654417774863" duration="13043000" />
+      <workItem from="1654490863034" duration="48000" />
+      <workItem from="1654537769684" duration="595000" />
+      <workItem from="1654623129762" duration="2354000" />
+      <workItem from="1654707279426" duration="4319000" />
+      <workItem from="1654801741778" duration="2811000" />
+      <workItem from="1654875775819" duration="806000" />
+      <workItem from="1654937449603" duration="25559000" />
+      <workItem from="1655021435140" duration="11260000" />
+      <workItem from="1655136938497" duration="1193000" />
+      <workItem from="1655222732056" duration="2363000" />
+      <workItem from="1655310155839" duration="1868000" />
+      <workItem from="1655394521996" duration="1897000" />
+      <workItem from="1655399593524" duration="4356000" />
+      <workItem from="1655405223135" duration="2068000" />
+      <workItem from="1655484378281" duration="1861000" />
+      <workItem from="1655549096728" duration="4735000" />
+      <workItem from="1655739800945" duration="5697000" />
+      <workItem from="1655831579933" duration="1192000" />
+      <workItem from="1655918005998" duration="795000" />
+      <workItem from="1656093783452" duration="3799000" />
+      <workItem from="1656172401632" duration="1726000" />
+      <workItem from="1656235454829" duration="705000" />
+      <workItem from="1656253476936" duration="12796000" />
+      <workItem from="1656348329938" duration="4301000" />
+      <workItem from="1656521268001" duration="3602000" />
+      <workItem from="1656606927163" duration="3259000" />
+      <workItem from="1657100864415" duration="3859000" />
+      <workItem from="1657294658791" duration="663000" />
+      <workItem from="1657355845373" duration="612000" />
+      <workItem from="1657967750272" duration="1385000" />
+      <workItem from="1658085175350" duration="1063000" />
+      <workItem from="1658166919398" duration="594000" />
+      <workItem from="1658348516049" duration="9000" />
+      <workItem from="1658385172206" duration="2027000" />
+      <workItem from="1658517765914" duration="600000" />
+      <workItem from="1658567387155" duration="11465000" />
+      <workItem from="1658656157831" duration="22543000" />
+      <workItem from="1658738282605" duration="1186000" />
+      <workItem from="1658931676371" duration="744000" />
+      <workItem from="1659028714002" duration="13104000" />
+      <workItem from="1659098108456" duration="1536000" />
+      <workItem from="1659182138256" duration="598000" />
+      <workItem from="1659256202205" duration="6106000" />
+      <workItem from="1659728363725" duration="3065000" />
+      <workItem from="1659742614668" duration="941000" />
+      <workItem from="1659807008146" duration="595000" />
+      <workItem from="1659858826727" duration="597000" />
+      <workItem from="1659978648336" duration="3000" />
+      <workItem from="1660065654623" duration="5892000" />
+      <workItem from="1660232030815" duration="625000" />
+      <workItem from="1660394251500" duration="2792000" />
+      <workItem from="1660460890471" duration="14126000" />
+      <workItem from="1660564170287" duration="639000" />
+      <workItem from="1660755157609" duration="2198000" />
+      <workItem from="1660757387379" duration="3090000" />
+      <workItem from="1660841882809" duration="5125000" />
+      <workItem from="1661182585596" duration="4862000" />
+      <workItem from="1662054013197" duration="6460000" />
+      <workItem from="1662140899315" duration="5581000" />
+      <workItem from="1662196136545" duration="29797000" />
+      <workItem from="1662282092890" duration="5590000" />
     </task>
     <task id="LOCAL-00001" summary="SKELETON">
       <created>1644431243260</created>
@@ -232,7 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645726352728</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Made react navbar.">
+      <created>1651003012312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651003012312</updated>
+    </task>
+    <task id="LOCAL-00007" summary="React + Typescript set up">
+      <created>1654709091952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654709091952</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +415,14 @@
     <MESSAGE value="Added Register/login controllers/entities&#10;And twig templates for login/register" />
     <MESSAGE value="Fixed login authorization and added authorization" />
     <MESSAGE value="Masterstvo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Masterstvo" />
+    <MESSAGE value="Masterstvoasa" />
+    <MESSAGE value="Made react navbar." />
+    <MESSAGE value="React + Typescript set up" />
+    <MESSAGE value="Navbar, login, register forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar, login, register forms" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

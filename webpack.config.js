@@ -16,11 +16,13 @@ Encore
     /*
      * ENTRY CONFIG
      *
-     * Each entry will result in one JavaScript file (e.g. app.js)
+     * Each entry will result in one JavaScript file (e.g. app.tsx)
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
-    .addEntry('app', './assets/app.js')
-
+    .addEntry('app', './assets/js/app.tsx')
+    .addStyleEntry('style', './assets/styles/app.css')
+    // .addEntry('app', './assets/js/Try.tsx')
+    // .addEntry('app', './assets/app.tsx')
     // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
     .enableStimulusBridge('./assets/controllers.json')
 
@@ -57,13 +59,16 @@ Encore
     })
 
     // enables Sass/SCSS support
-    //.enableSassLoader()
+    // .enableSassLoader()
+    //
+    // .configureCssLoader(options => { options.modules = true})
+    // .enablePostCssLoader()
 
     // uncomment if you use TypeScript
-    //.enableTypeScriptLoader()
+    .enableTypeScriptLoader()
 
     // uncomment if you use React
-    //.enableReactPreset()
+    .enableReactPreset()
 
     // uncomment to get integrity="..." attributes on your script & link tags
     // requires WebpackEncoreBundle 1.4 or higher
