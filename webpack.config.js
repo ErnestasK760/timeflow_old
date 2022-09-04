@@ -20,6 +20,7 @@ Encore
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
     .addEntry('app', './assets/js/app.tsx')
+    .addStyleEntry('style', './assets/styles/app.css')
     // .addEntry('app', './assets/js/Try.tsx')
     // .addEntry('app', './assets/app.tsx')
     // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
@@ -58,7 +59,10 @@ Encore
     })
 
     // enables Sass/SCSS support
-    //.enableSassLoader()
+    // .enableSassLoader()
+    //
+    // .configureCssLoader(options => { options.modules = true})
+    // .enablePostCssLoader()
 
     // uncomment if you use TypeScript
     .enableTypeScriptLoader()
